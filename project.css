@@ -1,0 +1,128 @@
+body {
+  background-color: black; 
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+header {
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  background-color: transparent;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  background: linear-gradient(45deg, black, #1c1c1c);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-text {
+    font-family: "Playwrite CU", cursive;
+    font-size: 26px;
+    color: silver;
+    font-weight: 400;
+}
+
+
+.handjet-nav {
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+  transition: color 0.3s ease;
+}
+
+/* Navbar styling */
+.navbar {
+  background: linear-gradient(45deg, black, #1c1c1c);
+  padding: 10px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-link {
+  color: orange;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+
+.navbar-nav .nav-link.handjet-nav:hover {
+  color: orange;
+}
+
+
+.navbar-nav .nav-item.active .nav-link.handjet-nav {
+  color: orange;
+}
+
+h1 {
+  color: orange;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  background-color: #1c1c1c;
+  border: 2px solid orange;
+  border-radius: 8px;
+  padding: 15px;
+  width: 18rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  color: white;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
